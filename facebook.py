@@ -1,3 +1,9 @@
+Email=input('email-')
+password=input('password-')
+if Email=='Gishaq@js-bethlehem.com':
+	print('hey')
+if password== input('meet'):
+	print(' you have logged in')
 class User():
 	def __init__(self,name,email,password):
 		self.name=name
@@ -25,10 +31,6 @@ class User():
 		self.sender=sender
 		self.texts.append(message)
 		print(sender,'has sent you a message:' ,message)
-
-
-
-
 	def get_userinfo(self):
 		print('Name:',self.name)
 		print('Email:',self.email)
@@ -40,8 +42,17 @@ user2=User('Loai','loai17@meet.mit.edu','myhiddenpassword123')
 user1.add_friend('loai17@meet.mit.edu')
 user1.post('hey im george befriend me')
 user1.get_userinfo()
+user1.remove_friend('Gishaq@js-bethlehem.com')
 user1.send('hey')
 user2.recieve('your friend','hey')
+class post():
+	def __init__(self,name,email,text)
+	self.name=name
+	self.email=email
+	self.text=text
+	
+
+
 
 
 
