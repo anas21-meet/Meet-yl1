@@ -1,4 +1,4 @@
-class Animal(object):
+class Animal():
 	def __init__(self,sound,name,age,favorite_color):
 		self.sound = sound
 		self.name = name
@@ -16,7 +16,7 @@ animal= Animal('meow ','cat ',4,' Blue')
 animal.eat('cat food')
 animal.description()
 animal.make_sound()
-class Person(object):
+class Person():
 	def __init__(self,name,age,city,gender):
 		self.name=name
 		self.age=age
@@ -26,6 +26,7 @@ class Person(object):
 		print(self.name+' is eating '+breakfast)
 person= Person('mike ','26','Jerusalem','Male')
 person.eatbreakfast('eggs')
+
 class Bird(object):
 	def __init__(self,name,color,speed):
 		self.name=name
@@ -34,9 +35,23 @@ class Bird(object):
 	def getspeed(self):
 		return self.speed
 	def race(self):
+		if self.speed>bird1.speed:
+			print(self.name+'has won a race against '+self.name)
+		elif self.speed<bird1.speed:
+			print(self.name+"has won a race against "+self.name)
 
+	def sing(self,sound):
+		self.sound=sound
+		print(self.sound)
+			
 bird1=Bird('sherlock','Blue',8)
-bird2=Bird('holmes','green',9)
+print(bird1)
+bird1.race()
+bird1.sing('LALALALALALALALALALALALA')
+
+
+
+
 
 
 
