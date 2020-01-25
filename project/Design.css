@@ -11,3 +11,20 @@ body{
 h1{
 	color:white;
 }
+button{
+
+    color: black;
+    position: absolute;
+    top: 55%;
+    right:55%;
+    font-size:25px 
+ 
+
+}
+input{
+    color: black; 
+    position: absolute;
+    top: 55%;
+    right:45% 
+
+    }
