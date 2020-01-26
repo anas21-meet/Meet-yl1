@@ -1,0 +1,33 @@
+header{
+	color:blue;
+	text-align:center;
+	font-size:45px;
+	font-family:times new roman;
+}
+body{
+	background-image:url("gender.jpeg");
+    background-repeat:no-repeat; 
+    background-size:cover;
+    
+
+}
+h1{
+	color:blue;
+}
+button{
+
+    color: black;
+    position: absolute;
+    top: 55%;
+    right:55%;
+    font-size:25px 
+ 
+
+}
+input{
+    color: black; 
+    position: absolute;
+    top: 55%;
+    right:45% 
+
+    }

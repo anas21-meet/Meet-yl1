@@ -1,0 +1,31 @@
+header{
+	font-size:45px;
+	color:blue;
+}
+body{
+	background-image:url("bully.jpg");
+    background-repeat:no-repeat; 
+    background-size:cover;
+    
+}
+h1{
+	color:blue;
+	font-size:22px
+}
+button{
+
+    color: black;
+    position: absolute;
+    top: 55%;
+    right:55%;
+    font-size:25px 
+ 
+
+}
+input{
+    color: black; 
+    position: absolute;
+    top: 55%;
+    right:45% 
+
+    }
