@@ -1,0 +1,11 @@
+header{
+	font-size:54px;
+	text-align:center;
+	color:white;  
+}
+body{
+	background-image:url('globe.jpg'); 
+	background-repeat:no-repeat; 
+    background-size:cover;
+    
+}
