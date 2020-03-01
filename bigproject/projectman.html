@@ -4,19 +4,35 @@
 <link rel="stylesheet" type="text/css" href="d1.css">
 
 	<script>
+
+    function toggleoff (div){
+       var element = document.geElementById("div");
+       if( 'none' == element.style.display ){
+           element.style.display = 'block';
+
+       }else{
+           element.style.display = 'none';
+
+       }
+       return false;
+    }
+
 	setTimeout(function page1_2() {
+
 	document.body.style.backgroundImage = 'none';	
     document.getElementById("header").innerHTML ="what would you like to explore?";
     document.body.style.backgroundColor = "black"; 
     document.getElementById("header").style.backgroundColor="blue"
+    document.getElementById("div").style.display="table"
 
-},2000)
+},3000)
+
+
 
     
-
 	</script>
  
-<header id="header">Our World: Your Choice</header>
+<header id="header" class="row">Our World: Your Choice   <a id="h" href="aboutus.html">About Us </a>    </header>
 
 
 	<title>
@@ -24,6 +40,39 @@
 	</title>
 </head>
 <body id='body'>
+	<div style="display: none;"  id="div" class="row">
+  <div  class="column" style="background-color:#58d68d;">
+    <a href="climate.html"><h2 class="h2">Climate Change</h2></a>
+    <p class="p">
+    	The information we provide on climate change is as follows:
+    <ul>
+    <li class="li"> Climate change description </li>
+        <li class="li"> Evidence for and against </li>	
+            <li class="li"> Debates </li>	
+                <li class="li"> Donate! </li>	
+                    <li class="li"> Online petitions </li>		
+    </ul>
+</p>
+<img id="img" src="climatechange.jpg"  height="350" width="750">
+
+  </div>
+  <div class="column" style="background-color:#F08080;">
+   <a href="ogi.html"> <h2 class="h2"> Other Global Issues</h2> </a>
+    <p  class="p"> The information we offer on other issues:
+<ul>
+    <li class="li"> Global Diseases</li>
+        <li class="li"> Poverty </li>	
+            
+                <li class="li"> World Hunger </li>	
+                    <li class="li"> Overpopulation </li>
+                    	
+                    		<li class="li"> Animal life On Earth </li>
+
+    </ul>
+    </p>
+<img id="id" src="otheriss.png"  height="350" width="750">
+</div>
+
 
 
 </body>

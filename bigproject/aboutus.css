@@ -1,0 +1,29 @@
+header{
+	font-size:50px;
+	text-align:center; 
+}
+#p{
+font-size:40px;
+width:1200px;  
+text-align:center; 
+position:absolute;
+left:18%;
+top:15%; 
+color:white;
+background-color:black;
+}
+body{
+	background-color:turquoise; 
+}
+#bb{
+	position:absolute;
+	top:75%;
+	right:10%;
+	color:white;
+	background-color:black; 
+	font-size:40px; 
+}
+
+a{
+	color:white;
+}
