@@ -5,6 +5,8 @@
 
 	<script>
 
+
+
     function toggleoff (div){
        var element = document.geElementById("div");
        if( 'none' == element.style.display ){
@@ -16,6 +18,9 @@
        }
        return false;
     }
+
+        
+
 
 	setTimeout(function page1_2() {
 
@@ -77,3 +82,35 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+ <p id = "demo"> </p>
+<script>
+
+var time = 3;
+function decrease_time() {
+if(time > 0){
+
+   document.getElementById("demo").innerHTML = time+' seconds';
+    time = time - 1;
+    }
+}
+setInterval(decrease_time,1000);
+
+
+setInterval(function() {
+
+    document.getElementById("demo").innerHTML = "";
+
+}, 4000);
+
